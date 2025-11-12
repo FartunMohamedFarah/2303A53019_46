@@ -1,0 +1,12 @@
+{
+  "name": "weather-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "serve . -s -l 5000",
+    "test": "node tests/run-tests.mjs"
+  },
+  "devDependencies": {
+    "serve": "^14.0.1"
+  }
+}
